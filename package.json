@@ -4,8 +4,8 @@
   "description": "Text",
   "main": "",
   "scripts": {
-    "create": "touch build"
-    "delete": "rm -rf build"
+    "create": "touch build",
+    "delete": "rm -rf build",
     "say": "Text in console"
   },
   "author": "Kriok",
