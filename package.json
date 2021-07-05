@@ -1,0 +1,13 @@
+{
+  "name": "final-project-Kriok",
+  "version": "1.0",
+  "description": "Text",
+  "main": "",
+  "scripts": {
+    "create": "touch build"
+    "delete": "rm -rf build"
+    "say": "Text in console"
+  },
+  "author": "Kriok",
+  "license": "E"
+}
