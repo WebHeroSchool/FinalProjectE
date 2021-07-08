@@ -1,8 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-const wrd = 'Hello';
-const num = 2;
-const sign = false;
+import count from './numbers.js';
+import { length } from './numbers.js';
 
 function App() {
   return (
@@ -19,15 +18,8 @@ function App() {
           Hello world!
         </p>
         <p>
-          {wrd}
-          {num}
-          {2+2}
+          {count*length}
         </p>
-        <div>
-          {undefined}
-          {sign ? 'Sign is true' : 'Sign is false'}
-          {sign && 'Sign is true'}
-        </div>
         <a
           className="App-link"
           href="https://reactjs.org"
