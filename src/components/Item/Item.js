@@ -1,7 +1,5 @@
 import React from 'react';
 
-const Item = () => (<span>Очень важное дело!</span>);
-const InputItem = () => (<div>InputItem</div>);
-const Footer = () => (<div>Footer</div>)
+const Item = ({ todoItem }) => (<span>{todoItem}</span>);
 
-export { Item, InputItem, Footer };
+export default Item;
