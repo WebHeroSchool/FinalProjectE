@@ -1,0 +1,12 @@
+.wrap {
+	display: block;
+	margin: auto;
+	width: 400px;
+	font-weight: 500;
+	font-size: 25px;
+}
+
+.wrap__title {
+	color: darkcyan;
+	font-family: Helvetica;
+}
