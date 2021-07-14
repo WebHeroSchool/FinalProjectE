@@ -4,7 +4,8 @@ import InputItem from '../InputItem/InputItem.js';
 import Footer from '../Footer/Footer.js';
 import styles from './App.module.css';
 
-const todoItem = 'Написать новое приложение';
+// const todoItem = 'Написать новое приложение';
+const taskCount= 3;
 
 const App = () => {
   const items = [
@@ -27,7 +28,7 @@ const App = () => {
     <h1 className={styles.title}>Todos</h1>
     <InputItem />
     <ItemList items={items}/>
-    <Footer count={3} />
+    <Footer taskCount={taskCount} />
   </div>);
 }
 
