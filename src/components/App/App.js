@@ -33,6 +33,26 @@ const taskCount= 3;
 // }
 
 class App extends React.Component {
+  constructor(props) {
+    super(props);
+
+    this.state ={
+      items: [
+        {
+          value: 'Написать новое приложение',
+          isDone: true
+        },
+        {
+          value: 'Украсть рецепт крабсбургера',
+          isDone: false
+        },
+        {
+          value: 'Захватить планету',
+          isDone: false
+        }
+      ]
+    };
+  }
   render() {
     const items = [
     {
@@ -52,7 +72,7 @@ class App extends React.Component {
     <div className={styles.wrap}>
       <h1 className={styles.title}>Todos</h1>
       <InputItem />
-      <ItemList items={items}/>
+      <ItemList items={this.state.items}/>
       <Footer taskCount={taskCount} />
     </div>);
   }
