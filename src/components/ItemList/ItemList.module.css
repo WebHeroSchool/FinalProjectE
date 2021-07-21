@@ -1,0 +1,25 @@
+.item {
+	color: #333;
+}
+
+.done {
+	text-decoration: line-through;
+	color: #c4c4c4;
+}
+  
+.delete {
+    display: none;
+}
+
+
+.itm:hover ~ .delete {
+    display: block;
+}
+
+.delete:hover {
+    display: block;
+}
+
+.itemList {
+	margin-top: 120px;
+}
