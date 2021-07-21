@@ -15,3 +15,7 @@
 .itm:hover ~ .delete {
     display: block;
 }
+
+.delete:hover {
+    display: block;
+}

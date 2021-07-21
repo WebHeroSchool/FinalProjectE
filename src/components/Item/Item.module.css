@@ -1,5 +1,7 @@
 .item {
 	color: #333;
+	font-family: Arial;
+	font-size: 20px;
 }
 
 .done {
