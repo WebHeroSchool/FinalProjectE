@@ -1,0 +1,45 @@
+body {
+	background-color: #f0f7f6;
+}
+
+.wrap {
+    background-color: #F6F6F8;
+	display: block;
+	margin: auto;
+	width: 400px;
+	font-weight: 500;
+	font-size: 25px;
+	border: 20px solid #F6F6F8;
+	display: grid;
+    grid-template-areas: 'sidebar ... content content';
+}
+
+.underWrap {
+	display: block;
+	margin: auto;
+	margin-top: 20vh;
+	width: 440px;
+	border-bottom: 8px solid gray;
+	border-right: 8px solid gray;
+	border-top: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+}
+
+.title {
+	color: darkcyan;
+	margin-top: 0px;
+	margin-bottom: 5px;
+	font-family: Helvetica;
+}
+
+.link {
+	text-decoration: none;
+}
+
+.sidebar {
+	grid-area: sidebar;
+}
+
+.content {
+	grid-area: content;
+}
