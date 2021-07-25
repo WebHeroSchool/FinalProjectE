@@ -1,0 +1,18 @@
+.title {
+	color: darkcyan;
+	font-family: Helvetica;
+	font-size: 50px;
+}
+
+.subtitle {
+	color: darkcyan;
+	font-family: Helvetica;
+	font-size: 25px;
+}
+
+.link {
+	text-decoration: none;
+    color: darkblue;
+    font-family: Arial;
+    
+}
