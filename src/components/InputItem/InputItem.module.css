@@ -1,0 +1,13 @@
+.blank {
+	color: #f0f7f6;
+	font-size: 7px;
+}
+
+.heightController {
+	height: 90px;
+}
+
+.button {
+	background-color: darkcyan;
+	color: white;
+}

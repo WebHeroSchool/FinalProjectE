@@ -1,0 +1,36 @@
+.filters-list {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 5 0 0 auto;
+    font-size: 12px;
+    padding: 0;
+}
+
+.button {
+    padding: 3px 8px;
+    margin-left: 16px;
+    border-radius: 23px;
+    background-color: white;
+    border: none;
+    outline: none;
+}
+
+.button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.number {
+    color: black;
+}
+
+.active {
+    color: #fff;
+    background-color: darkcyan;
+}
+
+.active .number {
+    color: #ccc;
+}
