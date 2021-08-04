@@ -1,0 +1,48 @@
+.title {
+	color: darkcyan;
+	margin-top: 5px;
+	margin-left: 5px;
+	font-family: Helvetica;
+	height: 60px;
+	width: 100px;
+	font-size: 40px;
+}
+
+.contacts {
+	margin-left: 10px;
+	margin-bottom: 5px;
+}
+
+.vk {
+	width: 150px;
+	height: auto;
+}
+
+.mail {
+	width: 150px;
+	height: auto;
+}
+
+.discord {
+	width: 150px;
+	height: auto;
+}
+
+.vkText {
+	text-decoration: none;
+	color: darkcyan;
+	font-family: Helvetica;
+	font-size: 35px;
+}
+
+.discordText {
+	color: darkcyan;
+	font-family: Helvetica;
+	font-size: 35px;
+}
+
+.mailText {
+	color: darkcyan;
+	font-family: Helvetica;
+	font-size: 35px;
+}
