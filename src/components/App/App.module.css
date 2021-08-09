@@ -1,0 +1,83 @@
+body {
+	background-color: #f0f7f6;
+}
+
+.wrap {
+    background-color: #F6F6F8;
+	display: block;
+	margin: auto;
+	width: 600px;
+	font-weight: 500;
+	font-size: 25px;
+	border: 20px solid #F6F6F8;
+    grid-template-areas: 'sidebar ... content';
+}
+
+.underWrap {
+	display: block;
+	margin: auto;
+	margin-top: 20vh;
+	width: 640px;
+	border-bottom: 8px solid gray;
+	border-right: 8px solid gray;
+	border-top: 1px solid lightgray;
+	border-left: 1px solid lightgray;
+}
+
+.title {
+	color: darkcyan;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	font-family: Helvetica;
+	height: 60px;
+	width: 100px;
+}
+
+.link {
+	text-decoration: none;
+    color:  black;
+}
+
+.sidebar {
+	display: flex;
+}
+
+.content {
+	display: flex;
+}
+
+.error {
+	font-family: Helvetica;
+	color: red;
+}
+
+.filter {
+    font-size: 12px;
+    line-height: 14px;
+    margin: 0 9px 0 0;
+    border: none;
+    box-sizing: border-box;
+}
+.filter:last-of-type {
+    margin: 0;
+}
+.filter:hover, .filter:focus {
+    background:darkcyan;
+    border-radius: 23px;
+    outline: none;
+    color: #FFFFFF;
+}
+.filter:hover .filteredItems, .filter:focus .filteredItems {
+    color: #FFFFFF;
+}
+.filteredItems {
+    color: darkcyan;
+}
+
+.shown {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}

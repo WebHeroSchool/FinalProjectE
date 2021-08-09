@@ -1,0 +1,15 @@
+.item_list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-height: 432px;
+  overflow: auto;
+}
+
+.shown {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
