@@ -1,0 +1,41 @@
+.item {
+	color: #333;
+	font-family: Arial;
+	font-size: 2.5vh;
+}
+
+.done {
+	text-decoration: line-through;
+	color: #c4c4c4;
+}
+
+.delete {
+	display: none;
+}
+
+.item:hover ~ .delete {
+	display: block;
+}
+
+.delete:hover {
+	display: block;
+}
+
+.noDelete {
+	display: none;
+}
+
+.shown {
+	display: block;
+}
+
+.hidden {
+	display: none;
+}
+
+@media all and (orientation: landscape) and (max-width: 900px) {
+	.item {
+		font-size: 25px;
+
+	}
+}
