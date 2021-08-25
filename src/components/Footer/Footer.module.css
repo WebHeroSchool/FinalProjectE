@@ -1,0 +1,19 @@
+.tasks {
+    color: #c4c4c4;
+    margin: 0 2vh;
+    font-size: 3vh;
+}
+
+@media (max-width: 1024px) {
+    .tasks {font-size: 28px;}
+}
+
+@media (orientation: landscape) and (max-width: 900px) {
+    .tasks {
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 420px) {
+    .tasks {font-size: 19px;}
+}
